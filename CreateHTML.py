@@ -5,6 +5,7 @@ class CreateHTML:
         file.write("<html> \n<body> \n</body> \n</html>")
         file.close()
 
+    # function to add title
     def addTitle(self, title, idd):
         file = open(self.filename, "r")
         title = "<h1 id='" + idd + "' > " + title + " </h1> <br/> \n"
