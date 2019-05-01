@@ -31,7 +31,7 @@ class CreateHTML:
         for i in lines:
             file.write(i)
         file.close()
-
+# need to def image function
 
     def addParagraph(self, content, idd):
         file = open(self.filename, "r")
@@ -49,3 +49,6 @@ class CreateHTML:
     def addStyle(self, idd, style):
         return
         # find the id and apply inline style to the element
+
+    def Idris(self):
+        #Checking if im connected.
