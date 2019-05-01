@@ -49,3 +49,6 @@ class CreateHTML:
     def addStyle(self, idd, style):
         return
         # find the id and apply inline style to the element
+
+    def Idris(self):
+        #Checking if im connected.
