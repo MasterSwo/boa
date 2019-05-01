@@ -18,7 +18,7 @@ class CreateHTML:
             file.write(i)
         file.close()
 
-    def editTitle(self, title, idd):
+    def editTitle(self, title, idd): #This function edits the title
         file = open(self.filename, "r")
         lines = file.readlines()
         for i in range(len(lines)):
