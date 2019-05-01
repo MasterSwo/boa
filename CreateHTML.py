@@ -5,6 +5,7 @@ class CreateHTML:
         file.write("<html> \n<body> \n</body> \n</html>")
         file.close()
 
+    # function to add title
     def addTitle(self, title, idd):
         file = open(self.filename, "r")
         title = "<h1 id='" + idd + "' > " + title + " </h1> <br/> \n"
@@ -17,8 +18,8 @@ class CreateHTML:
         for i in lines:
             file.write(i)
         file.close()
-    #hello
-    def editTitle(self, title, idd):
+
+    def editTitle(self, title, idd): #This function edits the title
         file = open(self.filename, "r")
         lines = file.readlines()
         for i in range(len(lines)):
@@ -31,7 +32,7 @@ class CreateHTML:
         for i in lines:
             file.write(i)
         file.close()
-
+# need to def image function
 
     def addParagraph(self, content, idd):
         file = open(self.filename, "r")
@@ -49,3 +50,6 @@ class CreateHTML:
     def addStyle(self, idd, style):
         return
         # find the id and apply inline style to the element
+
+    def Idris(self):
+        #Checking if im connected.
