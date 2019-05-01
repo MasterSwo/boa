@@ -31,7 +31,7 @@ class CreateHTML:
         for i in lines:
             file.write(i)
         file.close()
-
+# need to def image function
 
     def addParagraph(self, content, idd):
         file = open(self.filename, "r")
